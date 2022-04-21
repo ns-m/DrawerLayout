@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/app_category_first">
+        <menu>
+            <item android:title="@string/app_info"
+                android:id="@+id/app_info"
+                android:icon="@drawable/ic_info"/>
+            <item android:title="@string/app_docs"
+                android:id="@+id/app_docs"
+                android:icon="@drawable/ic_docs"/>
+            <item android:title="@string/app_reports"
+                android:id="@+id/app_reports"
+                android:icon="@drawable/ic_reports"/>
+            <item android:title="@string/app_pay"
+                android:id="@+id/app_pay"
+                android:icon="@drawable/ic_pay"/>
+        </menu>
+    </item>
+    <item android:title="@string/app_category_second">
+        <menu>
+            <item android:title="@string/app_account"
+                android:id="@+id/app_account"
+                android:icon="@drawable/ic_account"/>
+            <item android:title="@string/app_settings"
+                android:id="@+id/app_settings"
+                android:icon="@drawable/ic_settings"/>
+        </menu>
+    </item>
+
+
+</menu>
