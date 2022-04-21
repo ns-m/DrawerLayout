@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DrawerLayout</string>
+    <string name="app_text_menu">Main content</string>
+    <string name="app_open_menu">Open Menu</string>
 </resources>
